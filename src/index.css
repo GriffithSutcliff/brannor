@@ -1,13 +1,58 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Inter;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgba(35, 33, 34, 1);
+  height: 93px;
+}
+.header input{
+  width: 407px;
+  height: 42px;
+  border-radius: 26px;
+  border: 1px solid black;
+  color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.6);
+  box-sizing: border-box;
+  padding: 19px;
+  outline: 0;
+  background: transparent;
+}
+.header-info{
+  width: 464px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgba(255, 255, 255);
+}
+.header button{
+  border: 1px solid black;
+  width: 164px;
+  height: 38px;
+  border-radius: 34px;
+  background: transparent;
+  border-color: rgba(229, 45, 39, 1);
+  color: rgba(255, 255, 255);
+}
+.header select{
+  background: transparent;
+  outline: 0;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+}
+.lang{
+  width: 78px;
+  height: 27px;
+  display: flex;
+  gap: 10px;
+}
+.header select option{
+  background-color: rgba(35, 33, 34, 1);
 }
