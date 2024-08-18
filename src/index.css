@@ -4,6 +4,11 @@ body{
   font-family: Inter;
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+  font-family: 'Gamestation';
+  src: url('/src/fonts/GamestationDisplay.otf') format('opentype')
+}
+
 .header{
   display: flex;
   flex-direction: row;
@@ -13,6 +18,7 @@ body{
   height: 93px;
 }
 .header input{
+  font-size: 16px;
   width: 407px;
   height: 42px;
   border-radius: 26px;
@@ -25,6 +31,7 @@ body{
   background: transparent;
 }
 .header-info{
+  font-size: 16px;
   width: 464px;
   display: flex;
   flex-direction: row;
@@ -32,6 +39,7 @@ body{
   color: rgba(255, 255, 255);
 }
 .header button{
+  font-size: 16px;
   border: 1px solid black;
   width: 164px;
   height: 38px;
@@ -40,7 +48,7 @@ body{
   border-color: rgba(229, 45, 39, 1);
   color: rgba(255, 255, 255);
 }
-.header select{
+.header select, .search select{
   background: transparent;
   outline: 0;
   border: none;
@@ -53,6 +61,91 @@ body{
   display: flex;
   gap: 10px;
 }
-.header select option{
+option{
   background-color: rgba(35, 33, 34, 1);
+}
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 114px;
+  background-color: rgba(14, 14, 14, 1);
+}
+.search-menu{
+  width: 1151px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.search select{
+  font-size: 16px;
+  width: 181px;
+  height: 30px;
+  border-bottom: 1px solid black;
+  border-color: rgba(255, 255, 255, 0.6);
+  gap: 11px;
+}
+.selectors{
+  width: 904px;
+  display: flex;
+  justify-content: space-between;
+}
+.search button{
+  font-size: 16px;
+  width: 217px;
+  height: 38px;
+  border-radius: 34px;
+  color: rgb(255, 255, 255);
+  border: solid rgba(229, 45, 39, 1);
+  background-color: rgba(229, 45, 39, 1);
+}
+.frame-1{
+  height: 663px;
+  background-color: rgba(35, 33, 34, 1);
+}
+.frame-1 img{
+  float: right;
+  z-index: -1;
+}
+.frame-1-h{
+  position: absolute;
+  top: 333px;
+  left: 100px;
+  font-family: 'Gamestation';
+  width: 743px;
+  height: 140;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 8px;
+  text-align: left;
+  color: white;
+}
+.frame-1-h span{
+  color: rgba(229, 45, 39, 1);
+}
+.frame-1-text{
+  position: absolute;
+  width: 518px;
+  height: 155px;
+  top: 523px;
+  left: 225px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31.21px;
+  text-align: left;
+  color: white;
+}
+.frame-1 button{
+  position: absolute;
+  width: 301px;
+  height: 50px;
+  top: 713px;
+  left: 225px;
+  border-radius: 43px;
+  color: rgb(255, 255, 255);
+  border: solid rgba(229, 45, 39, 1);
+  background-color: rgba(229, 45, 39, 1);
+  font-size: 16px;
 }
