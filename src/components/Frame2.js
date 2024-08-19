@@ -4,6 +4,7 @@ import pads from '../imgs/pads.png'
 const Frame2 = () => {
     return (
         <div className='frame-2'>
+            <div className='circle'></div>
             <img className='pads' src={pads}></img>
             <div className='frame-2-text'>
                 <div className='h'>ТОВАРЫ</div>

@@ -153,6 +153,20 @@ option{
   font-size: 16px;
 }
 /* frame 2*/
+.frame-2{
+  z-index: 2;
+}
+.circle{
+  position: absolute;
+  top: 1115px;
+  left: 680px;
+  width: 200px;
+  height: 200px;
+  background: red;
+  border-radius: 50%;
+  filter: blur(180px);
+  z-index: -1;
+}
 .frame-2-text{
   position: absolute;
   top: 1079px;
@@ -285,29 +299,29 @@ option{
 }
 .frame-3 .h4{
 position: absolute;
-width: 463px;
-height: 126px;
-top: 2338px;
-left: 942px;
+  width: 463px;
+  height: 126px;
+  top: 2338px;
+  left: 942px;
 }
 .frame-3 .h4-text{
-position: absolute;
-width: 483px;
-height: 110px;
-top: 2479px;
-left: 942px;
+  position: absolute;
+  width: 483px;
+  height: 110px;
+  top: 2479px;
+  left: 942px;
 }
 .stick1{
-position: absolute;
-top: 2047px;
-left: 398.72px;
-z-index: 2;
+  position: absolute;
+  top: 2047px;
+  left: 398.72px;
+  z-index: 2;
 }
 .stick2{
-position: absolute;
-top: 2068.01px;
-left: 892.39px;
-z-index: 2;
+  position: absolute;
+  top: 2068.01px;
+  left: 892.39px;
+  z-index: 2;
 }
 .stick3{
   position: absolute;
