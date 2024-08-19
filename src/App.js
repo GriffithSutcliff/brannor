@@ -1,5 +1,6 @@
 import Frame1 from "./components/Frame1";
 import Frame2 from "./components/Frame2";
+import Frame3 from "./components/Frame3";
 import Header from "./components/Header";
 import Search from "./components/Search";
 
@@ -9,9 +10,8 @@ function App() {
       <Header />
       <Search />
       <Frame1 />
-      <div className="dark-theme">
-        <Frame2 />
-      </div>
+      <Frame2 />
+      <Frame3 />
     </div>
   );
 }

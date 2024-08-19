@@ -9,7 +9,7 @@ body{
   font-family: 'Gamestation';
   src: url('/src/fonts/GamestationDisplay.otf') format('opentype')
 }
-
+/*header*/
 .header{
   display: flex;
   flex-direction: row;
@@ -65,6 +65,7 @@ body{
 option{
   background-color: rgba(35, 33, 34, 1);
 }
+/* search*/
 .search{
   display: flex;
   align-items: center;
@@ -100,6 +101,7 @@ option{
   border: solid rgba(229, 45, 39, 1);
   background-color: rgba(229, 45, 39, 1);
 }
+/* frame 1*/
 .frame-1{
   height: 663px;
   background-color: rgba(35, 33, 34, 1);
@@ -150,6 +152,7 @@ option{
   background-color: rgba(229, 45, 39, 1);
   font-size: 16px;
 }
+/* frame 2*/
 .frame-2-text{
   position: absolute;
   top: 1079px;
@@ -203,4 +206,123 @@ option{
 .frame-2 .pads{
   float: right;
   margin-top: 80px;
+}
+/* frame 3*/
+.frame-3{
+  color: white;
+}
+.frame-3 .h{
+  position: absolute;
+  width: 134px;
+  height: 38px;
+  top: 1744px;
+  left: 100px;
+  font-family: Gamestation;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(229, 45, 39, 1);
+}
+.frame-3 .h1, .frame-3 .h2, .frame-3 .h3, .frame-3 .h4{
+  font-family: Gamestation;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 6px;
+  text-align: left;
+}
+.frame-3 .h1-text, .frame-3 .h2-text, .frame-3 .h3-text, .frame-3 .h4-text{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7);
+}
+.frame-3 .h1 {
+  position: absolute;
+  width: 487px;
+  height: 84px;
+  top: 1822px;
+  left: 168px;
+}
+.frame-3 .h1-text {
+  position: absolute;
+  width: 376px;
+  height: 110px;
+  top: 1921px;
+  left: 168px;
+}
+.frame-3 .h2{
+  position: absolute;
+  width: 463px;
+  height: 84px;
+  top: 1922px;
+  left: 1012px;
+}
+.frame-3 .h2-text{
+  position: absolute;
+  width: 456px;
+  height: 110px;
+  top: 2021px;
+  left: 1012px;
+}
+.frame-3 .h3{
+  position: absolute;
+  width: 463px;
+  height: 84px;
+  top: 2410px;
+  left: 177px;
+}
+.frame-3 .h3-text{
+  position: absolute;
+  width: 508px;
+  height: 110px;
+  top: 2509px;
+  left: 168px;
+}
+.frame-3 .h4{
+position: absolute;
+width: 463px;
+height: 126px;
+top: 2338px;
+left: 942px;
+}
+.frame-3 .h4-text{
+position: absolute;
+width: 483px;
+height: 110px;
+top: 2479px;
+left: 942px;
+}
+.stick1{
+position: absolute;
+top: 2047px;
+left: 398.72px;
+z-index: 2;
+}
+.stick2{
+position: absolute;
+top: 2068.01px;
+left: 892.39px;
+z-index: 2;
+}
+.stick3{
+  position: absolute;
+  top: 2312.45px;
+  left: 611px;
+  z-index: 2;
+}
+.stick4{
+  position: absolute;
+  top: 2351.19px;
+  left: 759.81px;
+  z-index: 2;
+}
+.frame-3 .disk{
+  position: absolute;
+  top: 2009.89px;
+  left: 544px;
 }
