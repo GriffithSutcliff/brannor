@@ -340,3 +340,78 @@ position: absolute;
   top: 2009.89px;
   left: 544px;
 }
+/* frame 4 */
+.frame-4{
+  position: absolute;
+  top: 2862px;
+  color: white;
+  float: left;
+}
+.app .background{
+  margin-top: 1243px;
+  float: right;
+  z-index: 1;
+}
+.frame-4 .shadow{
+  position: absolute;
+  top: 0px;
+  width: 952px;
+  height: 798px;
+  background-color: black;
+  border-radius: 0% 50% 50% 0%;
+  filter: blur(100px);
+}
+.frame-4 .text{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 60px;
+  left: 101px;
+  width: 735px;
+  height: 678px;
+}
+.frame-4 .context{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 739px;
+}
+.frame-4 .h-text{
+  font-family: Gamestation;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50.4px;
+  letter-spacing: 6px;
+}
+.frame-4 button{
+  width: 217px;
+  height: 38px;
+  border-radius: 34px;
+  color: white;
+  border: solid rgba(229, 45, 39, 1);
+  background-color: rgba(229, 45, 39, 1);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+}
+.frame-4 .context * {
+  width: 257px;
+  height: 115.05px;
+  display: flex;
+  flex-direction: column;
+}
+.frame-4 .context * img{
+  width: 21.05px;
+  height: 21.05px;
+  margin-bottom: 10px;
+}
+.frame-4 .h{
+  font-family: Gamestation;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  letter-spacing: 6px;
+  color: rgba(229, 45, 39, 1);
+}
