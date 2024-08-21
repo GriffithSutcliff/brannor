@@ -5,7 +5,7 @@ import planet from '../imgs/planet.svg'
 const Header = () => {
     return (
         <div className='header'>
-           <img src={logo}></img>
+           <img className='logo' src={logo}></img>
            <input placeholder='Введите артикул товара...'></input>
            <div className='header-info'>
             <div>Компания</div>
